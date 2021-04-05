@@ -305,5 +305,6 @@ X_train_svd, X_test_svd, y_train_svd, y_test_svd = train_test_split(df_svd, y, t
 | Cross Entropy | 8.78               |  9.575             | 8.915                | 1.385              |
 | Accuracy      | 0.7458             |  0.7228            | 0.7419               | 0.9599             |
 | F1 Score      | 0.7425             |  0.7027            | 0.739                | 0.9393             |
-![](https://i.imgur.com/PtoxNn7.png)
+
+![](https://i.imgur.com/PtoxNn7.png)<br/>
 最後將所有模型的準確度與Confusion Matrix相互比較，發現只經過truncatedSVD轉換的資料所訓練出來的結果是最好的，各項準確度都高達90%以上。我推測是因為論文作者有針對文字資料，以bag-of-words等方式進行過前處理，所以直接進行降維送入模型訓練的結果才會是最好的。
