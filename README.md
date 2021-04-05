@@ -1,4 +1,4 @@
-# Data Science for Cyber Security Final Project
+# Detecting Malicious Website URLs
 Reference Paper
 * [Identifying Suspicious URLs: An Application of Large-Scale Online Learning](http://cseweb.ucsd.edu/~jtma/papers/url-icml2009.pdf)
 * [Beyond Blacklists: Learning to Detect Malicious Web Sites
